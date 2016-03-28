@@ -34,6 +34,7 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1rem;
 }
 
 article header p {
@@ -42,12 +43,14 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.4rem;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: auto;
 }
 
 .quote {
@@ -56,12 +59,25 @@ blockquote {
 
 @media only screen and (min-width:38em) {
 
+  article {
+    font-size: 110%;
+  }
 }
 
 @media only screen and (min-width:60em) {
 
+  article {
+    font-size: 120%;
+  }
 }
 
 @media only screen and (min-width:90em) {
 
+  article {
+    font-size: 130%;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
 }
